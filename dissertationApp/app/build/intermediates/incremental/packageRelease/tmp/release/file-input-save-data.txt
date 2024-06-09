@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Tue Jul 03 14:11:39 BST 2018
+1.base=D\:\\MSc_CS\\master_project\\dissertationApp\\app\\build\\intermediates\\assets\\release
+2.path=PlanTemplate.json
+0.baseType=DIRECTORY
+2.base=D\:\\MSc_CS\\master_project\\dissertationApp\\app\\build\\intermediates\\assets\\release
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\MSc_CS\\master_project\\dissertationApp\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+2.baseType=DIRECTORY
+1.path=NLGtemplate.json

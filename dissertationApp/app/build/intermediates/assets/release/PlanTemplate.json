@@ -1,0 +1,382 @@
+{
+   "relax" : [
+      {
+		 "plan_id" : "1",
+         "places" : [
+			{
+			   "id" : "ChIJrxs09tCye0gRnrrwKtIQv-M",
+               "name" : "Manchester Arndale",
+               "location" : {
+					"lat" : 53.4831556,
+					"lng" : -2.2412102
+				},
+				"rating" : 4.3,
+				"types" : "shopping_mall"
+            },
+            {
+			   "id" : "ChIJPY8fFb6xe0gRKaqp3kdLy2M",
+               "name" : "Malmaison Manchester",
+               "location" : {
+					"lat" : 53.4794029,
+					"lng" : -2.2333604
+				},
+				"rating" : 4.3,
+				"types" : "spa"
+            },
+			{
+			   "id" : "ChIJp-DiJr-xe0gR9oHj1zPlybw",
+               "name" : "Nexus Art Cafe",
+               "location" : {
+					"lat" : 53.4823477,
+					"lng" : -2.2355706
+				},
+				"rating" : 4.6,
+				"types" : "cafe"
+            },
+			{
+			   "id" : "ChIJgeIwPtmxe0gRUskkJA00eZo",
+               "name" : "Grosvenor Casino Soames, Manchester",
+               "location" : {
+					"lat" : 53.4784996,
+					"lng" : -2.2407964
+				},
+				"rating" : 3.9,
+				"types" : "casino"
+            },
+			{
+			   "id" : "ChIJtwo1Lbmxe0gRya9aJ_GVdro",
+               "name" : "Funkademia",
+               "location" : {
+					"lat" : 53.483232,
+					"lng" : -2.234644
+				},
+				"rating" : 4,
+				"types" : "night_club"
+            }
+         ],
+         "transport" : [
+			{
+			   "travel_mode" : "walking",
+               "duration" : "8"
+            },
+            {
+			   "travel_mode" : "walking",
+               "duration" : "6"
+            },
+			{
+			   "travel_mode" : "walking",
+               "duration" : "10"
+            },
+			{
+			   "travel_mode" : "walking",
+               "duration" : "11"
+            }
+         ]
+      }
+   ],
+   "family" : [
+      {
+		 "plan_id" : "1",
+         "places" : [
+			{
+			   "id" : "ChIJ1eOJxZeue0gR46aOUHe0-lw",
+               "name" : "SEA LIFE Manchester",
+               "location" : {
+					"lat" : 53.4678657,
+					"lng" : -2.3408541
+				},
+				"rating" : 3.9,
+				"types" : "aquarium"
+            },
+            {
+			   "id" : "ChIJ_XL8UDCye0gRricUjuwhZCI",
+               "name" : "Fallow Cafe",
+               "location" : {
+					"lat" : 53.4433321,
+					"lng" : -2.2190958
+				},
+				"rating" : 4.2,
+				"types" : "cafe"
+            },
+			{
+			   "id" : "ChIJASmBEiWye0gR29D18RuI1Ec",
+               "name" : "Platt Fields Park",
+               "location" : {
+					"lat" : 53.4480571,
+					"lng" : -2.2249179
+				},
+				"rating" : 4.3,
+				"types" : "park"
+            }
+         ],
+         "transport" : [
+			{
+			   "travel_mode" : "bus",
+               "duration" : "52",
+			   "steps" : [
+				{
+					"travel_mode" : "walking",
+					"duration" : "7",
+					"html_instructions" : "Walk to Peel Circle"
+				},
+				{
+					"travel_mode" : "bus",
+					"duration" : "25",
+					"html_instructions" : "Bus towards Piccadilly Gardens",
+					"transit_details" : {
+						"departure_stop" : "Peel Circle",
+						"arrival_stop" : "College of Music (Stop A)",
+						"vehicle_name" : "250",
+						"vehicle_type" : "bus"
+					}
+				},
+				{
+					"travel_mode" : "walking",
+					"duration" : "3",
+					"html_instructions" : "Walk to University Shopping Ctr (Stop E)"
+				},
+				{
+					"travel_mode" : "bus",
+					"duration" : "12",
+					"html_instructions" : "Bus towards West Didsbury",
+					"transit_details" : {
+						"departure_stop" : "University Shopping Ctr (Stop E)",
+						"arrival_stop" : "Owen's Park (Stop B)",
+						"vehicle_name" : "143",
+						"vehicle_type" : "bus"
+					}
+				},
+				{
+					"travel_mode" : "walking",
+					"duration" : "1",
+					"html_instructions" : "Walk to 2 Landcross Rd, Manchester M14 6NA, UK"
+				}
+			   ]
+            },
+            {
+			   "travel_mode" : "walking",
+               "duration" : "10"
+            }
+         ]
+      }
+   ],
+   "culture" : [
+      {
+		 "plan_id" : "1",
+         "places" : [
+			{
+			   "id" : "ChIJO2PUe42xe0gRKzSAz2D0FiE",
+               "name" : "Manchester Museum",
+               "location" : {
+					"lat" : 53.4663268,
+					"lng" : -2.2342298
+				},
+				"rating" : 4.7,
+				"types" : "museum"
+            },
+            {
+			   "id" : "ChIJ20Rcgeexe0gR9j7ZK6QycUE",
+               "name" : "Museum of Science and Industry",
+               "location" : {
+					"lat" : 53.4773135,
+					"lng" : -2.2549624
+				},
+				"rating" : 4.5,
+				"types" : "museum"
+            },
+			{
+			   "id" : "ChIJj_5X7MKxe0gR5cMP5jBIg_Y",
+               "name" : "Hawksmoor Manchester",
+               "location" : {
+					"lat" : 53.4791756,
+					"lng" : -2.2493269
+				},
+				"rating" : 4.6,
+				"types" : "restaurant"
+            },
+			{
+			   "id" : "ChIJa_WPd8Gxe0gRnBn5BUoJfvg",
+               "name" : "Manchester Art Gallery",
+               "location" : {
+					"lat" : 53.4786818,
+					"lng" : -2.2414116
+				},
+				"rating" : 4.5,
+				"types" : "art_gallery"
+            },
+			{
+			   "id" : "ChIJ3zffqsexe0gR046_1xVQceY",
+               "name" : "National Football Museum",
+               "location" : {
+					"lat" : 53.4858222,
+					"lng" : -2.2421175
+				},
+				"rating" : 4.3,
+				"types" : "museum"
+            }
+         ],
+         "transport" : [
+			{
+			   "travel_mode" : "walking",
+               "duration" : "27"
+            },
+            {
+			   "travel_mode" : "walking",
+               "duration" : "7"
+            },
+			{
+			   "travel_mode" : "bus",
+               "duration" : "7",
+			   "steps" : [
+				{
+					"travel_mode" : "walking",
+					"duration" : "4",
+					"html_instructions" : "Walk to Bridge St (Stop WF)"
+				},
+				{
+					"travel_mode" : "bus",
+					"duration" : "2",
+					"html_instructions" : "Bus towards Manchester Royal Infirmary",
+					"transit_details" : {
+						"departure_stop" : "Bridge St (Stop WF)",
+						"arrival_stop" : "Chinatown (Stop SF)",
+						"vehicle_name" : "Vantage V1",
+						"vehicle_type" : "bus"
+					}
+				},
+				{
+					"travel_mode" : "walking",
+					"duration" : "1",
+					"html_instructions" : "Walk to Manchester Art Gallery, Manchester, UK"
+				}
+			   ]
+            },
+			{
+			   "travel_mode" : "rail",
+               "duration" : "7",
+			   "steps" : [
+				{
+					"travel_mode" : "walking",
+					"duration" : "2",
+					"html_instructions" : "Walk to St Peters Square"
+				},
+				{
+					"travel_mode" : "rail",
+					"duration" : "3",
+					"html_instructions" : "Tram towards Rochdale Interchange",
+					"transit_details" : {
+						"departure_stop" : "St Peters Square",
+						"arrival_stop" : "Exchange Square",
+						"vehicle_name" : "5",
+						"vehicle_type" : "tram"
+					}
+				},
+				{
+					"travel_mode" : "walking",
+					"duration" : "2",
+					"html_instructions" : "Walk to Headmasters Hse Chethams School, Long Millgate, Manchester M3 1NX, UK"
+				}
+			   ]
+            }
+         ]
+      }
+   ],
+   "food" : [
+      {
+		 "plan_id" : "1",
+         "places" : [
+			{
+			   "id" : "ChIJfyUr98Cxe0gRO4YqOgxB7lg",
+               "name" : "Moose Coffee",
+               "location" : {
+					"lat" : 53.4805818,
+					"lng" : -2.2408109
+				},
+				"rating" : 4.5,
+				"types" : "cafe"
+            },
+            {
+			   "id" : "ChIJrxs09tCye0gRnrrwKtIQv-M",
+               "name" : "Manchester Arndale",
+               "location" : {
+					"lat" : 53.4831556,
+					"lng" : -2.2412102
+				},
+				"rating" : 4.3,
+				"types" : "shopping_mall"
+            },
+			{
+			   "id" : "ChIJd71AR8Cxe0gR0i5yRK2kzmY",
+               "name" : "Teppanyaki Chinatown",
+               "location" : {
+					"lat" : 53.4788856,
+					"lng" : -2.2405795
+				},
+				"rating" : 4.4,
+				"types" : "restaurant"
+            },
+			{
+			   "id" : "ChIJZyKmEuWxe0gRX8jgvzVfn9k",
+               "name" : "Hulme Park",
+               "location" : {
+					"lat" : 53.4687721,
+					"lng" : -2.2522356
+				},
+				"rating" : 4.1,
+				"types" : "park"
+            },
+			{
+			   "id" : "ChIJrzdMjOixe0gRHZOS7pLPznk",
+               "name" : "Lola Lo Manchester",
+               "location" : {
+					"lat" : 53.4746371,
+					"lng" : -2.2499116
+				},
+				"rating" : 3.8,
+				"types" : "night_club"
+            }
+         ],
+         "transport" : [
+			{
+			   "travel_mode" : "walking",
+               "duration" : "4"
+            },
+            {
+			   "travel_mode" : "walking",
+               "duration" : "7"
+            },
+			{
+			   "travel_mode" : "bus",
+               "duration" : "17",
+			   "steps" : [
+				{
+					"travel_mode" : "walking",
+					"duration" : "4",
+					"html_instructions" : "Walk to Hart St (Stop SM)"
+				},
+				{
+					"travel_mode" : "bus",
+					"duration" : "8",
+					"html_instructions" : "Bus towards Chorlton",
+					"transit_details" : {
+						"departure_stop" : "Hart St (Stop SM)",
+						"arrival_stop" : "Royce Rd",
+						"vehicle_name" : "86",
+						"vehicle_type" : "bus"
+					}
+				},
+				{
+					"travel_mode" : "walking",
+					"duration" : "5",
+					"html_instructions" : "Walk to 2 Birchvale Cl, Manchester M15 5BJ, UK"
+				}
+			   ]
+            },
+			{
+			   "travel_mode" : "walking",
+               "duration" : "14"
+            }
+         ]
+      }
+   ]
+}

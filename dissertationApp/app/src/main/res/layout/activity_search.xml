@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/cb_startCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Start Point: Current Location"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/startPointLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/startPoint_header"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Start At: "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <fragment
+                android:id="@+id/place_autocomplete_fragment_start"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/cb_endCurrent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="true"
+            android:text="End Point: Current Location"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:id="@+id/endPointLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/endPoint_header"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="End At:   "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <fragment
+                android:id="@+id/place_autocomplete_fragment_end"
+                android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/startTimeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/startTime_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Time:   "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/startTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="Choose Start time" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/endTimeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/endTime_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Time:   "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/endTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:hint="Choose End time" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/transport_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Transport Type:   "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <RadioGroup
+            android:id="@+id/transport_types"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <RadioButton
+                android:id="@+id/rd_bus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/bus_icon"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rd_rail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/rail_icon" />
+
+            <RadioButton
+                android:id="@+id/rd_driving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/driving_icon" />
+
+            <RadioButton
+                android:id="@+id/rd_walking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/walking_icon" />
+
+            <RadioButton
+                android:id="@+id/rd_bicycling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/bicycling_icon" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cb_opennow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Current Open Places Only"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/places_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Place Type:   "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal">
+
+                <CheckBox
+                    android:id="@+id/cb_park"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Park" />
+
+                <CheckBox
+                    android:id="@+id/cb_museum"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Museum" />
+
+                <CheckBox
+                    android:id="@+id/cb_zoo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Zoo" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <CheckBox
+                    android:id="@+id/cb_landmark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Landmark" />
+
+                <CheckBox
+                    android:id="@+id/cb_shopping"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Shopping" />
+
+                <CheckBox
+                    android:id="@+id/cb_show"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Show" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <CheckBox
+                    android:id="@+id/cb_restaurant"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Restaurant" />
+
+                <CheckBox
+                    android:id="@+id/cb_cafe"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Cafe" />
+
+                <CheckBox
+                    android:id="@+id/cb_nightlife"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nightlife" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+
+                <CheckBox
+                    android:id="@+id/cb_casino"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Casino" />
+
+                <CheckBox
+                    android:id="@+id/cb_spa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Spa" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="Search" />
+    </LinearLayout>
+
+</ScrollView>

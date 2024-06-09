@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/id_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name">
+
+        <TextView
+            android:id="@+id/id_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="id: "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="id"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lat_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/id_area">
+        <TextView
+            android:id="@+id/lat_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="lat: "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="lat"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/item_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@android:drawable/ic_input_add" />
+
+    <LinearLayout
+        android:id="@+id/lng_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lat_area">
+        <!--android:layout_centerInParent="true"  >-->
+
+        <TextView
+            android:id="@+id/lng_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lng: "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/lng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lng"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/type_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lng_area">
+        <!--android:layout_centerInParent="true"  >-->
+
+        <TextView
+            android:id="@+id/type_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type: "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="type"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/opennow_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/type_area">
+        <!--android:layout_centerInParent="true"  >-->
+
+        <TextView
+            android:id="@+id/opennow_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opennow: "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/opennow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="opennow"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rating_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/opennow_area">
+        <!--android:layout_centerInParent="true"  >-->
+
+        <TextView
+            android:id="@+id/rating_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rating: "
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="rating"
+            android:textAppearance="?android:attr/textAppearanceButton"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>

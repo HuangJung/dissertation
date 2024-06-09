@@ -1,0 +1,546 @@
+{
+   "restaurant" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"have a meal",
+            "enjoy a gourmet"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "like",
+               "object" : "food"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place to eat"
+            },
+			{
+               "subject" : "you",
+               "verb" : "be",
+			   "object" : "hungry"
+            }
+         ],
+		 "modifier" : [
+			"outstanding",
+            "affordable",
+			"elegant"
+         ],
+         "third_sentence" : [
+			"enjoy a delicious meal in the following 1 hour",
+            "satisfy your appetite and get some dessert",
+            "let's start a gourmet from here"
+         ]
+	},
+	"cafe" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"grad a coffee",
+            "taste some dessert"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "are",
+               "object" : "peckish"
+            },
+            {
+               "subject" : "you",
+               "verb" : "love",
+			   "object" : "snack"
+            },
+			{
+               "subject" : "you",
+               "verb" : "have",
+			   "object" : "sweet tooth"
+            }
+         ],
+		 "modifier" : [
+			"excellent",
+            "charming",
+			"lovely"
+         ],
+         "third_sentence" : [
+			"take a rest and grab a cup of coffee",
+            "It's a good opportunity to get an outside seat",
+            "cakes and drinks are waiting for you"
+         ]
+	},
+	"bar" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"taste great food",
+            "enjoy good food"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "like",
+               "object" : "food"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place to eat"
+            },
+			{
+               "subject" : "you",
+               "verb" : "be",
+			   "object" : "hungry"
+            }
+         ],
+		 "modifier" : [
+			"excellent",
+            "brilliant",
+			"awesome "
+         ],
+         "third_sentence" : [
+			"You can eat and drink your fill",
+            "satisfy your appetite and get some dessert",
+            "let's start a gourmet from here"
+         ]
+	},
+	"spa" : {
+		"staying_time" : "1.5 hour",
+		"list_object" : [
+			"relax your body",
+            "take a relax"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "be",
+               "object" : "tired"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place to relax"
+            },
+			{
+               "subject" : "you",
+               "verb" : "need",
+			   "object" : "a place to release stress"
+            }
+         ],
+		 "modifier" : [
+			"superb",
+            "outstanding",
+			"comfortable"
+         ],
+         "third_sentence" : [
+			"relax yourself in the following 1.5 hour",
+            "take pleasure here and relax yourself at ease",
+            "It's a good place to relax your mind and body"
+         ]
+	},
+	"beauty_salon" : {
+		"staying_time" : "1.5 hour",
+		"list_object" : [
+			"get haircut",
+            "get hair design"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "want",
+               "object" : "to get haircut"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place for hairdressing"
+            },
+			{
+               "subject" : "you",
+               "verb" : "need",
+			   "object" : "hair design and make up"
+            }
+         ],
+		 "modifier" : [
+			"professional",
+            "surprising",
+			"stylish"
+         ],
+         "third_sentence" : [
+			"spend 1.5 hour making you become pretty",
+            "enjoy the hairdressing services in this place",
+            "you can get professional hair design and make up here"
+         ]
+	},
+	"casino" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"have fun in casino",
+            "enjoy gambling"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "like",
+               "object" : "gambling"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place for gambling"
+            },
+			{
+               "subject" : "you",
+               "verb" : "want",
+			   "object" : "to have a chance to make fortune"
+            }
+         ],
+		 "modifier" : [
+			"popular",
+            "fascinating",
+			"pleasant"
+         ],
+         "third_sentence" : [
+			"you may have an opportunity to make a fortune",
+            "have fun in this awesome place",
+            "enjoy the time for gambling"
+         ]
+	},
+	"night_club" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"have a drink",
+            "enjoy night life"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "be",
+               "object" : "a life of the party"
+            },
+            {
+               "subject" : "you",
+               "verb" : "love",
+			   "object" : "night life"
+            },
+			{
+               "subject" : "you",
+               "verb" : "want",
+			   "object" : "to have a drink"
+            }
+         ],
+		 "modifier" : [
+			"luxury",
+            "exciting",
+			"famous"
+         ],
+         "third_sentence" : [
+			"you can dance to your heart's content",
+            "You can dance and drink your fill",
+            "enjoy a special night life in the next 1 hour"
+         ]
+	},
+	"park" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"take a walk",
+            "enjoy a fine scenery"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "want to",
+               "object" : "take a walk"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place to take a break"
+            },
+			{
+               "subject" : "you",
+               "verb" : "need",
+			   "object" : "some distraction"
+            }
+         ],
+		 "modifier" : [
+			"charming",
+            "lovely",
+			"beautiful"
+         ],
+         "third_sentence" : [
+			"luxuriate in beautiful view in this place",
+            "it's a good place to go for a walk or take a nap",
+            "let's stop and smell the roses"
+         ]
+	},
+	"museum" : {
+		"staying_time" : "1.5 hour",
+		"list_object" : [
+			"appreciate collections",
+            "find treasures"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "be interested in",
+               "object" : "collections"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place to realize local culture"
+            },
+			{
+               "subject" : "you",
+               "verb" : "like",
+			   "object" : "appreciate treasures"
+            }
+         ],
+		 "modifier" : [
+			"great",
+            "elegant",
+			"marvellous"
+         ],
+         "third_sentence" : [
+			"there is rest and healing in the contemplation of collections",
+            "it's a good place to appreciate the treasures",
+            "you can find lots of collections in this place"
+         ]
+	},
+	"art_gallery" : {
+		"staying_time" : "1.5 hour",
+		"list_object" : [
+			"appreciate art",
+            "cultivate artistic demeanor"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "like",
+               "object" : "painting"
+            },
+            {
+               "subject" : "you",
+               "verb" : "want to",
+			   "object" : "enhance artistic demeanor"
+            },
+			{
+               "subject" : "you",
+               "verb" : "love",
+			   "object" : "art"
+            }
+         ],
+		 "modifier" : [
+			"unforgettable",
+            "memorable",
+			"impressive"
+         ],
+         "third_sentence" : [
+			"feast your eyes on the beautiful paintings",
+            "spend few hours staring at the paintings and the statues",
+            "it's a good place to cultivate your artistic demeanor"
+         ]
+	},
+	"library" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"read a book",
+            "enjoy reading"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "like",
+               "object" : "reading"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be interested in",
+			   "object" : "reading"
+            },
+			{
+               "subject" : "you",
+               "verb" : "want",
+			   "object" : "enhance knowledge"
+            }
+         ],
+		 "modifier" : [
+			"appealing",
+            "fine",
+			"good"
+         ],
+         "third_sentence" : [
+			"you may find an interesting book or collection",
+            "It's a good opportunity to enhance your knowledge",
+            "choose a comfortable seat and read a book you like"
+         ]
+	},
+	"zoo" : {
+		"staying_time" : "2 hour",
+		"list_object" : [
+			"visit a zoo",
+            "see different kinds of animals"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "like",
+               "object" : "animals"
+            },
+            {
+               "subject" : "you",
+               "verb" : "like",
+			   "object" : "zoo"
+            },
+			{
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place to see different kinds of animals"
+            }
+         ],
+		 "modifier" : [
+			"local",
+            "surprising",
+			"amazing"
+         ],
+         "third_sentence" : [
+			"enjoy the time with wild animals",
+            "it's a good place for families",
+            "spend few hours staying with animals"
+         ]
+	},
+	"aquarium" : {
+		"staying_time" : "2 hour",
+		"list_object" : [
+			"visit an aquarium",
+            "look around sea life"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "like",
+               "object" : "aquarium"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place to observe see animals"
+            },
+			{
+               "subject" : "you",
+               "verb" : "love",
+			   "object" : "sea life"
+            }
+         ],
+		 "modifier" : [
+			"attractive",
+            "interesting",
+			"wonderful"
+         ],
+         "third_sentence" : [
+			"look around an amazing sea world in the following few hours",
+            "it's a great place for families",
+            "children may love this place"
+         ]
+	},
+	"church" : {
+		"staying_time" : "0.5 hour",
+		"list_object" : [
+			"pray for someone",
+            "calm down your mind"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "like",
+               "object" : "church"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a place to calm down your mind"
+            },
+			{
+               "subject" : "you",
+               "verb" : "want to",
+			   "object" : "pray for someone"
+            }
+         ],
+		 "modifier" : [
+			"beautiful",
+            "grand",
+			"majestic"
+         ],
+         "third_sentence" : [
+			"stop for a while to let your mind rest",
+            "pray for the one you love in this sacred place",
+            "calm down your mind in this sacred place"
+         ]
+	},
+	"shopping_mall" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"crazy for shopping",
+            "buy a lot of stuff"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "be",
+               "object" : "a shopaholic"
+            },
+            {
+               "subject" : "you",
+               "verb" : "love",
+			   "object" : "shopping"
+            },
+			{
+               "subject" : "you",
+               "verb" : "want to",
+			   "object" : "buy some stuff"
+            }
+         ],
+		 "modifier" : [
+			"attractive",
+            "busy",
+			"fashionable"
+         ],
+         "third_sentence" : [
+			"go on a shopping spree in the following 1 hour",
+            "give yourself a chance to become a shopaholic",
+            "you can enjoy shopping in the following 1 hour"
+         ]
+	},
+	"others" : {
+		"staying_time" : "1 hour",
+		"list_object" : [
+			"visit local spot",
+            "gain some different experience"
+         ],
+		"first_sentence" : [
+			{
+			   "subject" : "you",
+               "verb" : "be interested in",
+               "object" : "different spot"
+            },
+            {
+               "subject" : "you",
+               "verb" : "be finding",
+			   "object" : "a local spot"
+            },
+			{
+               "subject" : "you",
+               "verb" : "like",
+			   "object" : "to visit local attractions"
+            }
+         ],
+		 "modifier" : [
+			"local",
+            "good",
+			"nice"
+         ],
+         "third_sentence" : [
+			"you may get some different experience in this attraction",
+            "it's a special place to visit",
+            "visit this local place in the following hour"
+         ]
+	}
+} 

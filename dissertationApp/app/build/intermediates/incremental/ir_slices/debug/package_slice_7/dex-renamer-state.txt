@@ -1,0 +1,4 @@
+#Sun Jul 15 19:03:21 BST 2018
+base.0=D\:\\MSc_CS\\master_project\\dissertationApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\144
+path.0=classes.dex
+renamed.0=classes.dex
